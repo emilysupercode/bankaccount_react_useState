@@ -22,7 +22,7 @@ function Expense() {
 }
   return (
     <div className="App">
-      <p classname="balanceP">{balance}</p>
+      <p className="balanceP">{balance}</p>
       <input type="number" id="amountChange" onChange={getInput} value={userInput}/>
       <button type="button" onClick={Income}>Log Income</button>
       <button type="button" onClick={Expense}>Log Expense</button>
